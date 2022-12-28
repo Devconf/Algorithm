@@ -1,46 +1,62 @@
 #include<iostream>
 #include<vector>
 #include<algorithm>
+#include<cstring>
 #include<functional>
 using namespace std;
 
 int n;
+pair<int, int> maxNode = { 0,0 };
+bool visited[100001];
 vector<pair<int,int>> node[100001];
-vector<int> diameter(100001);
 
-int DFS(int parent)
+void DFS(int parent, int w,int totalWeight)
 {
-	int maxWeigh = 0;
-	int current = 0;
-	if(node[parent].size() == 0)// leaf node
-	{
-		return 0;
-	}
+	visited[parent] = true;
 
 	for(int i = 0; i < node[parent].size(); i++)
 	{
-		current += DFS(node[parent][i].first) + node[parent][i].second;
-		maxWeigh = max(maxWeigh, DFS(node[parent][i].first) + node[parent][i].second);
+		int child = node[parent][i].first;
+		int weight = node[parent][i].second;
+		if(!visited[child])
+		{
+			DFS(child, weight, (totalWeight + weight));
+		}
 	}
-	diameter[parent] = current;
-	return maxWeigh;
+
+	int nodeNum = maxNode.first;
+	int maxTotal = maxNode.second;
+	if(maxTotal < totalWeight)
+	{
+		maxNode = { parent,totalWeight };
+	}
+	return;
 }
 
 int main()
 {
-	ios_base::sync_with_stdio(0);
+	ios_base::sync_with_stdio(false);
 	cin.tie(0);
+
+	memset(node, 0, sizeof(node));
+	memset(visited, false, sizeof(visited));
 
 	cin >> n;
 	for(int i = 0; i < n-1; i++)
 	{
 		int p, c, w;
 		cin >> p >> c >> w;
-		node[p - 1].push_back({ c - 1,w });
+		node[p].push_back({ c,w });
+		node[c].push_back({ p,w });
 	}
 
-	DFS(0);
+	DFS(1, 0, 0);
+	
+	int startNode = maxNode.first;
+	memset(visited, false, sizeof(visited));
+	maxNode = { 0,0 };
 
-	sort(diameter.begin(), diameter.end(), greater<int>());
-	cout << diameter[0];
+	DFS(startNode, 0, 0);
+
+	cout << maxNode.second;
 }
