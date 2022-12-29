@@ -5,11 +5,6 @@ using namespace std;
 
 vector<int> arr(100001,0);
 
-//bool cmp(int a, int b)
-//{
-//	return a < b;
-//}
-
 int binarySearch(int start, int end, int n)
 {
 	if(start == end)
