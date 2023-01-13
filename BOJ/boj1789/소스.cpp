@@ -6,13 +6,13 @@ int main()
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
 
-	int s;
+	long long s;
 
 	cin >> s;
 
-	int sum = 0;
-	int answer = 0;
-	for(int i = 1; ; i++)
+	long long sum = 0;
+	long long answer = 0;
+	for(long long i = 1; ; i++)
 	{
 		if(sum + i <= s)
 		{
