@@ -101,6 +101,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShowMetheCode 코테 2", "�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShowMetheCode 코테 3", "기업 코테\ShowMetheCode 코테 3\ShowMetheCode 코테 3.vcxproj", "{12A9FE0C-0F83-4585-BCAD-2DD62CC523D7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boj1911", "BOJ\boj1911\boj1911.vcxproj", "{878DC240-55A2-4CE6-BD5C-A208A6801706}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -501,6 +503,14 @@ Global
 		{12A9FE0C-0F83-4585-BCAD-2DD62CC523D7}.Release|x64.Build.0 = Release|x64
 		{12A9FE0C-0F83-4585-BCAD-2DD62CC523D7}.Release|x86.ActiveCfg = Release|Win32
 		{12A9FE0C-0F83-4585-BCAD-2DD62CC523D7}.Release|x86.Build.0 = Release|Win32
+		{878DC240-55A2-4CE6-BD5C-A208A6801706}.Debug|x64.ActiveCfg = Debug|x64
+		{878DC240-55A2-4CE6-BD5C-A208A6801706}.Debug|x64.Build.0 = Debug|x64
+		{878DC240-55A2-4CE6-BD5C-A208A6801706}.Debug|x86.ActiveCfg = Debug|Win32
+		{878DC240-55A2-4CE6-BD5C-A208A6801706}.Debug|x86.Build.0 = Debug|Win32
+		{878DC240-55A2-4CE6-BD5C-A208A6801706}.Release|x64.ActiveCfg = Release|x64
+		{878DC240-55A2-4CE6-BD5C-A208A6801706}.Release|x64.Build.0 = Release|x64
+		{878DC240-55A2-4CE6-BD5C-A208A6801706}.Release|x86.ActiveCfg = Release|Win32
+		{878DC240-55A2-4CE6-BD5C-A208A6801706}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
