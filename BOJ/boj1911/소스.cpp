@@ -12,7 +12,6 @@ int main()
 	cin >> n >> l;
 
 	vector<pair<long long, long long>> v;
-	vector<pair<long long, long long>> p;
 
 	
 	for(int i = 0; i < n; i++)
@@ -22,42 +21,31 @@ int main()
 		v.push_back({ s,e });
 	}
 
-	v.push_back({ 0,0 });
 
 	sort(v.begin(), v.end());
 
-
-	//v.push_back({ v[v.size()-1].second,v[v.size() - 1].second });
-
-	long long start = 0;
-	long long end = 0;
+	long long cur = 0;
 	int cnt = 0;
-	for(int i = 1; i < v.size(); i++)
+	for(int i = 0; i < v.size(); i++)
 	{
-		if(v[i].second - v[i].first <=l){
-			cnt++;
-			end= v[i].second;
-			continue;
-		}
-		else
+		if(cur >= v[i].first && cur < v[i].second)
 		{
-			if((v[i].first - v[i-1].second) > l/2)
+			int quotient = (v[i].second - cur) / l;
+			int remainder = (v[i].second - cur) % l;
+
+			cnt += quotient;
+			cur += quotient * l;
+			if(remainder != 0)
 			{
-				cnt += ceil((end - start) / l);
-				start = v[i].first;
-				end = v[i].first;
-			}
-			else
-			{
-				end = v[i].second;
+				cnt++;
+				cur += l;
 			}
 		}
+		else if(cur< v[i].first)
+		{
+			cur = v[i].first;
+			i--;
+		}
 	}
-	cnt += ceil((end - start) / l);
-
 	cout << cnt;
-	for(int i = 0; i < p.size();i++)
-	{
-		cout << p[i].first << " " << p[i].second;
-	}
 }
