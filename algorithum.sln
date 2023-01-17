@@ -103,6 +103,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShowMetheCode 코테 3", "�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boj1911", "BOJ\boj1911\boj1911.vcxproj", "{878DC240-55A2-4CE6-BD5C-A208A6801706}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boj1459", "BOJ\boj1459\boj1459.vcxproj", "{326878AB-99A0-4037-BF87-DCF4E31F32FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -511,6 +513,14 @@ Global
 		{878DC240-55A2-4CE6-BD5C-A208A6801706}.Release|x64.Build.0 = Release|x64
 		{878DC240-55A2-4CE6-BD5C-A208A6801706}.Release|x86.ActiveCfg = Release|Win32
 		{878DC240-55A2-4CE6-BD5C-A208A6801706}.Release|x86.Build.0 = Release|Win32
+		{326878AB-99A0-4037-BF87-DCF4E31F32FD}.Debug|x64.ActiveCfg = Debug|x64
+		{326878AB-99A0-4037-BF87-DCF4E31F32FD}.Debug|x64.Build.0 = Debug|x64
+		{326878AB-99A0-4037-BF87-DCF4E31F32FD}.Debug|x86.ActiveCfg = Debug|Win32
+		{326878AB-99A0-4037-BF87-DCF4E31F32FD}.Debug|x86.Build.0 = Debug|Win32
+		{326878AB-99A0-4037-BF87-DCF4E31F32FD}.Release|x64.ActiveCfg = Release|x64
+		{326878AB-99A0-4037-BF87-DCF4E31F32FD}.Release|x64.Build.0 = Release|x64
+		{326878AB-99A0-4037-BF87-DCF4E31F32FD}.Release|x86.ActiveCfg = Release|Win32
+		{326878AB-99A0-4037-BF87-DCF4E31F32FD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
