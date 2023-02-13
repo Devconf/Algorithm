@@ -145,6 +145,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boj10757", "BOJ\boj10757\bo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boj1074", "BOJ\boj1074\boj1074.vcxproj", "{378D9416-7DDF-4D22-9DDA-2227BF04AA0C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2023 스프링코딩 코딩테스트 1", "기업 코테\2023 스프링코딩 코딩테스트 1\2023 스프링코딩 코딩테스트 1.vcxproj", "{FA570BE8-507D-46A2-B029-EFAA55B8F8F2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2023 스프링코딩 코딩테스트 2", "기업 코테\2023 스프링코딩 코딩테스트 2\2023 스프링코딩 코딩테스트 2.vcxproj", "{37CFAB26-E1E1-4AEF-BC00-2654CF771EF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -721,6 +725,22 @@ Global
 		{378D9416-7DDF-4D22-9DDA-2227BF04AA0C}.Release|x64.Build.0 = Release|x64
 		{378D9416-7DDF-4D22-9DDA-2227BF04AA0C}.Release|x86.ActiveCfg = Release|Win32
 		{378D9416-7DDF-4D22-9DDA-2227BF04AA0C}.Release|x86.Build.0 = Release|Win32
+		{FA570BE8-507D-46A2-B029-EFAA55B8F8F2}.Debug|x64.ActiveCfg = Debug|x64
+		{FA570BE8-507D-46A2-B029-EFAA55B8F8F2}.Debug|x64.Build.0 = Debug|x64
+		{FA570BE8-507D-46A2-B029-EFAA55B8F8F2}.Debug|x86.ActiveCfg = Debug|Win32
+		{FA570BE8-507D-46A2-B029-EFAA55B8F8F2}.Debug|x86.Build.0 = Debug|Win32
+		{FA570BE8-507D-46A2-B029-EFAA55B8F8F2}.Release|x64.ActiveCfg = Release|x64
+		{FA570BE8-507D-46A2-B029-EFAA55B8F8F2}.Release|x64.Build.0 = Release|x64
+		{FA570BE8-507D-46A2-B029-EFAA55B8F8F2}.Release|x86.ActiveCfg = Release|Win32
+		{FA570BE8-507D-46A2-B029-EFAA55B8F8F2}.Release|x86.Build.0 = Release|Win32
+		{37CFAB26-E1E1-4AEF-BC00-2654CF771EF5}.Debug|x64.ActiveCfg = Debug|x64
+		{37CFAB26-E1E1-4AEF-BC00-2654CF771EF5}.Debug|x64.Build.0 = Debug|x64
+		{37CFAB26-E1E1-4AEF-BC00-2654CF771EF5}.Debug|x86.ActiveCfg = Debug|Win32
+		{37CFAB26-E1E1-4AEF-BC00-2654CF771EF5}.Debug|x86.Build.0 = Debug|Win32
+		{37CFAB26-E1E1-4AEF-BC00-2654CF771EF5}.Release|x64.ActiveCfg = Release|x64
+		{37CFAB26-E1E1-4AEF-BC00-2654CF771EF5}.Release|x64.Build.0 = Release|x64
+		{37CFAB26-E1E1-4AEF-BC00-2654CF771EF5}.Release|x86.ActiveCfg = Release|Win32
+		{37CFAB26-E1E1-4AEF-BC00-2654CF771EF5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
