@@ -149,6 +149,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2023 스프링코딩 코딩
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2023 스프링코딩 코딩테스트 2", "기업 코테\2023 스프링코딩 코딩테스트 2\2023 스프링코딩 코딩테스트 2.vcxproj", "{37CFAB26-E1E1-4AEF-BC00-2654CF771EF5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boj18111", "BOJ\boj18111\boj18111.vcxproj", "{077A2565-6D0A-4FD4-9DF3-A04B76B05E9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -741,6 +743,14 @@ Global
 		{37CFAB26-E1E1-4AEF-BC00-2654CF771EF5}.Release|x64.Build.0 = Release|x64
 		{37CFAB26-E1E1-4AEF-BC00-2654CF771EF5}.Release|x86.ActiveCfg = Release|Win32
 		{37CFAB26-E1E1-4AEF-BC00-2654CF771EF5}.Release|x86.Build.0 = Release|Win32
+		{077A2565-6D0A-4FD4-9DF3-A04B76B05E9F}.Debug|x64.ActiveCfg = Debug|x64
+		{077A2565-6D0A-4FD4-9DF3-A04B76B05E9F}.Debug|x64.Build.0 = Debug|x64
+		{077A2565-6D0A-4FD4-9DF3-A04B76B05E9F}.Debug|x86.ActiveCfg = Debug|Win32
+		{077A2565-6D0A-4FD4-9DF3-A04B76B05E9F}.Debug|x86.Build.0 = Debug|Win32
+		{077A2565-6D0A-4FD4-9DF3-A04B76B05E9F}.Release|x64.ActiveCfg = Release|x64
+		{077A2565-6D0A-4FD4-9DF3-A04B76B05E9F}.Release|x64.Build.0 = Release|x64
+		{077A2565-6D0A-4FD4-9DF3-A04B76B05E9F}.Release|x86.ActiveCfg = Release|Win32
+		{077A2565-6D0A-4FD4-9DF3-A04B76B05E9F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
