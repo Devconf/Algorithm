@@ -45,6 +45,8 @@
 *.rsuser
 *.suo
 *.user
+*.vcxproj
+*.vcxproj.*
 *.userosscache
 *.sln.docstates
 
@@ -133,6 +135,7 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
+
 
 # Chutzpah Test files
 _Chutzpah*
